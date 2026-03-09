@@ -52,14 +52,14 @@ export default function Auth() {
         <div className="absolute inset-0 bg-stone-950/50" />
         <div className="absolute inset-0 flex flex-col justify-end p-16">
           <Link to="/" className="flex flex-col leading-none mb-auto mt-8">
-            <span className="font-display text-3xl font-light tracking-[0.2em] text-white">AURUM</span>
+            <span className="font-display text-3xl font-light tracking-[0.2em] text-white">EliteStay</span>
             <span className="text-gold-400 text-[10px] tracking-[0.35em] uppercase">LUXURY HOTEL</span>
           </Link>
           <blockquote>
             <p className="font-display text-3xl text-white font-light italic leading-relaxed mb-4">
               "Every stay should be<br />an unforgettable story"
             </p>
-            <cite className="text-stone-300 text-sm not-italic">— Aurum Hotel Promise</cite>
+            <cite className="text-stone-300 text-sm not-italic">— EliteStay Hotel Promise</cite>
           </blockquote>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function Auth() {
       {/* Right: Form */}
       <div className="flex-1 lg:max-w-md flex flex-col justify-center px-8 md:px-16 py-20 bg-stone-50">
         <Link to="/" className="lg:hidden flex flex-col leading-none mb-12">
-          <span className="font-display text-2xl font-light tracking-[0.2em] text-stone-900">AURUM</span>
+          <span className="font-display text-2xl font-light tracking-[0.2em] text-stone-900">EliteStay</span>
           <span className="text-gold-600 text-[10px] tracking-[0.35em] uppercase">LUXURY HOTEL</span>
         </Link>
 
@@ -109,7 +109,7 @@ export default function Auth() {
                 type="text"
                 value={name}
                 onChange={e => setName(e.target.value)}
-                placeholder="John Doe"
+                placeholder="Peter son"
                 required
                 className="w-full border border-stone-300 bg-white px-4 py-3 text-sm focus:outline-none focus:border-gold-500 transition-colors"
               />
@@ -124,7 +124,7 @@ export default function Auth() {
               type="email"
               value={email}
               onChange={e => setEmail(e.target.value)}
-              placeholder="you@example.com"
+              placeholder="peter@example.com"
               required
               className="w-full border border-stone-300 bg-white px-4 py-3 text-sm focus:outline-none focus:border-gold-500 transition-colors"
             />

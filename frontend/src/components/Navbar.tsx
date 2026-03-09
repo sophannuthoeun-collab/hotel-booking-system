@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex flex-col leading-none">
-            <span className={`font-display text-2xl font-light tracking-[0.2em] ${textClass}`}>AURUM</span>
+            <span className={`font-display text-2xl font-light tracking-[0.2em] ${textClass}`}>EliteStay</span>
             <span className={`text-[10px] tracking-[0.35em] font-sans font-light uppercase ${isHome && !scrolled ? 'text-gold-300' : 'text-gold-400'}`}>
               LUXURY HOTEL
             </span>

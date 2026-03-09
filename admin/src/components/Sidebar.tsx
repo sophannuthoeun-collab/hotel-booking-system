@@ -30,7 +30,7 @@ export default function Sidebar() {
             <Hotel size={18} className="text-white" />
           </div>
           <div>
-            <div className="text-white font-semibold text-sm tracking-wide">AURUM</div>
+            <div className="text-white font-semibold text-sm tracking-wide">EliteStay</div>
             <div className="text-slate-400 text-[10px] tracking-widest">ADMIN PANEL</div>
           </div>
         </div>
