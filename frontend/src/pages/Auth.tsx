@@ -170,14 +170,6 @@ export default function Auth() {
             }
           </button>
         </form>
-
-        {mode === 'login' && (
-          <div className="mt-6 p-4 bg-stone-100 border border-stone-200">
-            <p className="text-xs text-stone-500 mb-2 font-medium uppercase tracking-wider">Demo Credentials</p>
-            <p className="text-xs text-stone-600">Admin: admin@hotel.com / admin123</p>
-          </div>
-        )}
-
         <p className="text-center text-xs text-stone-400 mt-8">
           {mode === 'login' ? "Don't have an account? " : 'Already have an account? '}
           <button

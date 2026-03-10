@@ -3,6 +3,7 @@ import { roomsAPI } from '../api';
 import { Room } from '../types';
 import RoomCard from '../components/RoomCard';
 import { SlidersHorizontal, Search, X } from 'lucide-react';
+import Footer from '../components/home/Footer';
 
 const TYPES = ['all', 'single', 'double', 'suite', 'villa', 'penthouse'];
 const PRICE_RANGES = [
@@ -208,6 +209,8 @@ export default function Rooms() {
           </div>
         )}
       </div>
+      <Footer/>
     </div>
+    
   );
 }
